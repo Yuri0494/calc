@@ -1,0 +1,45 @@
+.container {
+    margin: 0 auto;
+    width: 250px;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator__buttons {
+    margin-top: 10px;
+    height: 90px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator__text {
+    text-align: center;
+}
+
+
+.calculator__digits {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.buttons__operations {
+    display: flex;
+    flex-direction: column;
+}
+
+.reset {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.results {
+    text-align: center;
+}
+
